@@ -1,0 +1,26 @@
+# Core Dependencies
+streamlit==1.32.0
+numpy>=1.24.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+matplotlib>=3.7.0
+
+# Segment Anything
+git+https://github.com/facebookresearch/segment-anything.git
+
+# Streamlit Components
+streamlit-image-coordinates>=0.1.6
+streamlit-drawable-canvas>=0.9.0
+
+# Optional (for ngrok if needed)
+pyngrok>=6.0.0
+
+# PyTorch (choose based on your system)
+# For CPU only:
+torch>=2.0.0
+torchvision>=0.15.0
+
+# For GPU (CUDA 11.8):
+# torch>=2.0.0+cu118
+# torchvision>=0.15.0+cu118
+# --extra-index-url https://download.pytorch.org/whl/cu118
