@@ -155,10 +155,7 @@ streamlit run app.py
 
 ---
 
-## 📞 Contact
-
-0626560205 
-id line : 123ohiop
 
  
+
 
